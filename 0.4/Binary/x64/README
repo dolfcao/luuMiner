@@ -1,0 +1,15 @@
+LuuMiner is a windows solidcoin miner based on reaper v12 that supports both gpu and cpu mining.
+This is version 0.4, developed by dolfcao(dolfcao at gmail.com)
+X86 and X64 version of LuuMiner are both provided.
+
+Notes:
+1. Make sure your graphic card driver has been installed correctly.
+2. Modify reaper.conf located in LuuMiner Directory, make sure this config file is correct for you. 
+	 This config file is the same as reaper (http://wiki.solidcoin.info/wiki/reaper).
+3. Run LuuMiner.
+
+Troubleshooting:
+1. No opencl.dll found,there are three solution to this:
+	1. It's mainly because your graphic card driver isn't installed correctly, just reinstall your graphic card driver;
+	2. Try to download an opencl.dll from the internet, and copy it to luuMiner directory;
+	3. Your graphic card doesn't support opencl function.
